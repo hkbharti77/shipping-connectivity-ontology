@@ -10,7 +10,7 @@ This project models global shipping connectivity using the Liner Shipping Connec
 
 ---
 
-## 🗂️ Directory Structure
+## 💂️ Directory Structure
 
 ```
 shipping-connectivity-ontology/
@@ -78,10 +78,41 @@ shipping-connectivity-ontology/
 ### Prerequisites
 
 * Python 3.11+
-* Install dependencies:
+
+### ⚙️ Create and Activate a Virtual Environment (Recommended)
+
+Using a virtual environment ensures that dependencies are isolated:
+
+<details>
+<summary><strong>🔹 For Windows</strong></summary>
 
 ```bash
-pip install flask pandas flasgger
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+venv\Scripts\activate
+```
+
+</details>
+
+<details>
+<summary><strong>🔹 For macOS/Linux</strong></summary>
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+```
+
+</details>
+
+Then install dependencies inside the environment:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### Run the API
