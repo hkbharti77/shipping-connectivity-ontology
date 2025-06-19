@@ -1,0 +1,15 @@
+requests
+pandas
+xmltodict
+toml
+beautifulsoup4
+lxml
+toml
+pycountry
+pycountry-convert
+pandas
+flask pandas
+
+
+
+

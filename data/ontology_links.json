@@ -1,0 +1,26 @@
+[
+  {
+    "from": "Economy",
+    "relationship": "MEASURED_BY",
+    "to": "LSCI_Measurement",
+    "description": "An economy is measured by one or more LSCI records."
+  },
+  {
+    "from": "LSCI_Measurement",
+    "relationship": "RECORDED_IN",
+    "to": "Time_Period",
+    "description": "Each LSCI measurement is recorded in a specific time period."
+  },
+  {
+    "from": "Economy",
+    "relationship": "BELONGS_TO",
+    "to": "Geographic_Region",
+    "description": "Each economy belongs to one or more geographic regions."
+  },
+  {
+    "from": "Economy",
+    "relationship": "CONNECTED_TO",
+    "to": "Economy",
+    "description": "Represents similarity or trade linkages between economies (derived)."
+  }
+]
