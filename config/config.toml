@@ -1,8 +1,7 @@
 [api]
 timeout = 30
 lsci_base_url = "https://unctadstat.unctad.org/datacentre/dataviewer/US.LSCI"
-client_id = "4cb92f26-163f-48c5-a1dd-178500515966"
-api_key = "otZtJQeE4c/CY5YK9ipVzDASOL1Ily7+P1pmCQJ8S/g="
+
 
 
 [data]

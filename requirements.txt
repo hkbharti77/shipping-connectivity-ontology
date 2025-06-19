@@ -8,8 +8,11 @@ toml
 pycountry
 pycountry-convert
 pandas
-flask pandas
+flask 
+pandas
 
+flasgger
+flask-cors
 
 
 
